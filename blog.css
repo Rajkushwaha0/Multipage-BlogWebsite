@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  height: 1100px;
+  width: 100vw;
+}
+/* header  */
+.header {
+  height: 12%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.header span {
+  font-size: larger;
+}
+.header h3,
+span {
+  cursor: pointer;
+}
+.header h3 {
+  color: blue;
+}
+.header span {
+  color: black;
+  font-weight: bold;
+}
+.header h1 {
+  font-weight: bolder;
+}
+
+/* main  content  */
+.section {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+.section .know {
+  padding-left: 40px;
+  margin-right: 100px;
+}
+.know i {
+  color: blue;
+  background-color: white;
+}
+.know h1,
+p,
+h2,
+hr,
+ul {
+  margin-bottom: 15px;
+}
+.know ul {
+  padding-left: 30px;
+}
+.know .border1 {
+  border: 1px solid black;
+}
+
+/* reference style  */
+.section .ref {
+  padding-right: 80px;
+}
+.ref .about h3 {
+  font-style: italic;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.ref .about p {
+  text-align: center;
+  padding: 10px;
+}
+.ref .about {
+  background-color: rgb(223, 223, 223);
+
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.ref .year {
+  padding-left: 15px;
+}
+.ref .year li {
+  list-style: none;
+  margin-bottom: 4px;
+  padding-left: 15px;
+}
+.year h3 {
+  font-style: italic;
+  font-weight: bolder;
+  margin-bottom: 4px;
+}
+.ref .else {
+  margin-top: 20px;
+  padding-left: 15px;
+}
+.else li {
+  list-style: none;
+  padding-left: 15px;
+}
+
+/* footer */
+.footer {
+  margin-top: 30px;
+  padding-left: 70px;
+  display: flex;
+  gap: 50px;
+}
+.footer .Previous {
+  font-weight: bolder;
+  border: 1px solid rgb(80, 150, 255);
+  color: rgb(80, 150, 255);
+  height: 40px;
+  width: 100px;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.footer .next {
+  font-weight: bolder;
+  border: 1px solid grey;
+  color: grey;
+  height: 40px;
+  width: 100px;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
